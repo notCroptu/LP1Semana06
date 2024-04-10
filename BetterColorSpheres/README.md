@@ -1,8 +1,21 @@
 ```mermaid
-flowchart TD;
-      class MyClass {
-      field1: int
-      field2: string
-      calculate(): int
-      }
+classDiagram;
+    class Color{
+        + Red: byte
+        + Green: byte
+        + Blue: byte
+        + Alpha: byte
+        + GrayScale: byte
+    }
+
+    class Sphere{
+        - color: Color
+        + Raio: float
+        + Throws: int
+
+        + Pop() void
+        + Throw() void
+    }
+
+    Sphere *-- Color;
 ```
