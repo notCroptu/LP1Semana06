@@ -1,5 +1,5 @@
 ```mermaid
-classDiagram;
+classDiagram
     class Color{
         + Red: byte
         + Green: byte
@@ -17,5 +17,5 @@ classDiagram;
         + Throw() void
     }
 
-    Sphere *-- Color;
+    Sphere *-- Color
 ```
