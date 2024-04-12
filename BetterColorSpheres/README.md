@@ -17,5 +17,5 @@ classDiagram
         + Throw() void
     }
 
-    Sphere --> Color
+    Sphere "1" --> Color
 ```
